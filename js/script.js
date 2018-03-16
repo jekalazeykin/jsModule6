@@ -16,7 +16,8 @@ const keyTrainer = {
     return this.arr;
   },
   userInput() {
-    this.start = (prompt('Наберите строку ' + (this.arr))).split(",");
+    this.arr =  (this.arr).join("");
+    this.start = (prompt('Наберите строку ' + (this.arr)));
     return this.start;
   },
   userErrors() {
